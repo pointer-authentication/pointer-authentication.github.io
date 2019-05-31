@@ -19,7 +19,7 @@ layout: home
 
 ## Source Code
 
-To be made available on publication.
+To be made available.
 
 ## About
 
