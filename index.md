@@ -19,7 +19,12 @@ layout: home
 
 ## Source Code
 
-To be made available.
+Initial PARTS/LLVM source code available on
+[GitHub](https://github.com/pointer-authentication/PARTS-llvm). The current
+source code is that which was used for evaluation presented in our **PAC it up:
+Towards Pointer Integrity using ARM Pointer Authetnication** paper. We are
+currently working on an updated version, which will be released at a later
+date.
 
 ## About
 
