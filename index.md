@@ -3,7 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Pointer Authentication
 ---
+
+This page contains projects related to the
+ARMv8.3-PAuth memory protection extension. These works are part of the
+[hardware-assisted runtime
+protection](https://ssg.aalto.fi/research/projects/harp) efforts of the Secure
+Systems Group at [University of
+Waterloo](https://crysp.uwaterloo.ca/research/SSG) in Canada and [Aalto
+University](https://ssg.aalto.fi) in Finland.
 
 # PARTS
 
@@ -16,13 +25,12 @@ layout: home
 *Carlos Chinea Perez*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
-[USENIX Security '19](https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand) (to appear)   
-[arXiv:1811.09189\[cs.CR\].arxiv.org/abs/1811.09189](https://arxiv.org/abs/1811.09189)
+[USENIX Security '19](https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand)
 
-### Source code
+## Source code
 
 Source code for the LLVM PARTS implementation is available at
-[github.com/pointer-authentication/PARTS-llvm](https://github.com/pointer-authentication/PARTS-llvm).
+[github.com/pointer-authentication/parts-llvm](https://github.com/pointer-authentication/PARTS-llvm).
 
 # PACStack
 
@@ -43,9 +51,10 @@ Source code for the LLVM PARTS implementation is available at
 *Thomas Nyman*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
-ACM DAC '19,  [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)
+ACM DAC '19  
+[DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)
 
-### Source code
+## Source code
 
 Source code for the LLVM PACStack implementation is available at
 [github.com/pacstack/pacstack-llvm](https://github.com/pacstack/pacstack-llvm).
@@ -54,23 +63,16 @@ Source code for the LLVM PACStack implementation is available at
 
 > Stack canaries remain a widely deployed defense against memory corruption attacks. Despite their practical usefulness, canaries are vulnerable to memory disclosure and brute-forcing attacks. We propose PCAn, a new approach based on ARMv8.3-A pointer authentication (PA), that uses dynamically-generated canaries to mitigate these weaknesses and show that it provides more fine-grained protection with minimal performance overhead.
 
-**Protecting the stack with PACed canaries**
+**Protecting the stack with PACed canaries**  
 *Hans Liljestrand*,
 *Zaheer Gauhar*,
 *Thomas Nyman*,
 *Jan-Erik Ekberg*,
-*N. Asokan*
-[SysTex '19], [DOI:10.1145/3342559.3365336](https://doi.org/10.1145/3342559.3365336)
+*N. Asokan*  
+SysTex '19  
+[DOI:10.1145/3342559.3365336](https://doi.org/10.1145/3342559.3365336)
 
-### Source code
+## Source code
 
 Source code for the LLVM PCan implementation is available at
-[github.com/pointer-authentication/PCan-LLVM](https://github.com/pointer-authentication/PCan-LLVM).
-
-# About
-
-This work is part of the [hardware-assisted runtime
-protection](https://ssg.aalto.fi/research/projects/harp) efforts of the Secure
-Systems Group at [University of
-Waterloo](https://crysp.uwaterloo.ca/research/SSG) in Canada and [Aalto
-University](https://ssg.aalto.fi) in Finland.
+[github.com/pointer-authentication/pcan-llvm](https://github.com/pointer-authentication/PCan-LLVM).
