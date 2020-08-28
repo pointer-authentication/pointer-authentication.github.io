@@ -30,7 +30,7 @@ University](https://ssg.aalto.fi) in Finland.
 ## Source code
 
 Source code for the LLVM PARTS implementation is available at
-[github.com/pointer-authentication/parts-llvm](https://github.com/pointer-authentication/PARTS-llvm).
+[github.com/pointer-authentication/parts-llvm](https://github.com/pointer-authentication/parts-llvm).
 
 # PACStack
 
@@ -57,7 +57,7 @@ ACM DAC '19
 ## Source code
 
 Source code for the LLVM PACStack implementation is available at
-[github.com/pacstack/pacstack-llvm](https://github.com/pacstack/pacstack-llvm).
+[github.com/pacstack/pacstack-llvm](https://github.com/pointer-authentication/pacstack-llvm).
 
 # PCan
 
@@ -75,4 +75,4 @@ SysTex '19
 ## Source code
 
 Source code for the LLVM PCan implementation is available at
-[github.com/pointer-authentication/pcan-llvm](https://github.com/pointer-authentication/PCan-LLVM).
+[github.com/pointer-authentication/pcan-llvm](https://github.com/pointer-authentication/pcan-llvm).
