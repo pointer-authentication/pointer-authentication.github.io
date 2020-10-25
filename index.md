@@ -44,7 +44,8 @@ Source code for the LLVM PARTS implementation is available at
 *Lachlan J. Gunn*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
-[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/abs/1905.10242)
+[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/abs/1905.10242)  
+[accepted to USENIX Security '21]
 
 [Poster](/assets/pdfs/PACStack.DAC56-LBR-poster.pdf) **Late Breaking Results: Authenticated Call Stack** (2019)  
 *Hans Liljestrand*,
